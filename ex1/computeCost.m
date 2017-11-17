@@ -14,7 +14,7 @@ J = 0;
 %               You should set J to the cost.
 
 A = (X*theta - y) .**2; % just a helper matrix
-J = sum(A) / (2*m)
+J = sum(A) / (2*m);
 
 % =========================================================================
 
